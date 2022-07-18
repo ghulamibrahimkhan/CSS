@@ -1,0 +1,20 @@
+.top-div{
+    background-image: url(sta-je-html.webp);
+
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-x; */
+    background-repeat:  no-repeat;
+
+    /* background-size: cover; */
+    /* background-size: contain; */
+    background-size: auto;
+    background-repeat: repeat;
+
+    background-attachment: revert;
+
+    background-position: top center;
+
+    height: 1000px;
+
+    /* background: red url(sta-je-html.webp) no-repeat top right; */
+}
