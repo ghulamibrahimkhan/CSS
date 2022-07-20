@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 77x;
+    background-color: purple;
+    color: rgb(181, 255, 8);
+    border: 10px  dashed black;
+    margin: 1px;
+    padding: 10px;
+    padding-left: 30px;
+    font-size: 15px;
+}
+main{
+    background-color: snow;
+    color: rgb(0, 0, 0);
+    height: 750px;
+    border: 20px solid rgb(77, 148, 6);
+    margin: 30px;
+}
+footer{
+    background-color: blue;
+    color: azure;
+    text-align: center;
+    height: 100px;
+    padding-top: 25px;
+    margin: 50px; 
+}
+.border{
+
+    box-sizing: content-box;  
+}
+li{
+    display: inline;
+}

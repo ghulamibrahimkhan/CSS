@@ -1,0 +1,29 @@
+/* Margin => Border => Padding => Content */
+/* Margin collapse */
+/* *Box sizing */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 250px;
+    width: 300px;
+    /*  margin: 0; */
+    padding: 10px;
+    background-color: aqua;
+    border: 40px solid greenyellow;
+    margin: 50px;
+    border-radius: 10%;
+    box-sizing: content-box;
+}
+.child{
+    width: 100%;
+    background-color: bisque;
+
+    box-sizing: border-box;
+    /* box-sizing: content-box; */
+    
+    padding: 20px;
+    border: 20px solid goldenrod;
+}
