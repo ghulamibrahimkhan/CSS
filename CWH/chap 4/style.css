@@ -1,0 +1,57 @@
+.father{
+    background-color: rgb(224, 213, 213);
+}
+.same {
+
+    text-transform: full-width;
+    text-decoration: underline 2px wheat ;
+    line-height: 50px;
+    font-size: 30px;    
+}
+
+.one {
+    background-color: green;
+    width: 33%;
+    height: 550px;
+    display: inline-block;
+    box-sizing: border-box;
+    /* text-align: center; */
+}
+
+.two {
+    background-color: greenyellow;
+    width: 33%;
+    height: 550px;
+    box-sizing: border-box;
+
+    display: inline-block;
+    /* visibility: hidden; */
+    /* display: none; */
+}
+
+.three {
+    background-color: black;
+    width: 33%;
+    height: 550px;
+    box-sizing: border-box;
+    display: inline-block;
+    color: aliceblue;
+}
+
+/* Fonts */
+.ff{
+    background-color: beige;
+    height: 150px;
+    font-weight: bolder;
+}
+.fonts1{
+    text-align: center;
+    font-family:'Cormorant SC', serif;
+    font-size: 40px;
+}
+.fonts2{
+    text-align: center;
+    font-family:  'Edu SA Beginner', cursive;
+    font-size: 40px;
+    font-style: oblique;
+}
