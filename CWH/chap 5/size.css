@@ -1,0 +1,37 @@
+/* Size */
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 32px;
+}
+.one{
+    background-color: beige;
+    font-size: 1rem;
+    min-height: 5vh;
+    max-height: 30vh;
+    width: 50vw;
+}
+.p1{
+    font-size: 2em;
+    background-color: brown;
+    min-height: 7vh;
+    max-height: 15vh;
+    /* visibility: hidden;  */
+}
+.two{
+    background-color: rgb(14, 240, 240);
+    font-size: 1rem;
+    min-height: 8vh;
+    max-height: 30vh;
+    text-align: center;
+    width: 90vw;
+    margin: auto;
+    padding: 2vh;
+}
+.p2{
+    background-color: black;
+    color: azure;
+    font-size: 2em;
+}

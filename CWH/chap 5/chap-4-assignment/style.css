@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+}
+ul{
+    width: 40vw;
+    color: azure;
+    margin: auto;
+}
+li{
+    display: inline-block;
+    font-size: 3vw;
+    padding: 10px;
+    
+}
+div{
+    background-color: antiquewhite;
+    color: black;
+    font-size: 2rem;
+    height: 200vh;
+}
