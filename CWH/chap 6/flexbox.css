@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+}
+
+.container {
+    background-color: yellow;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    align-items: center;
+    /* align-content: center; */
+}
+
+.morbius {
+    background-color: black;
+    order: 3;
+    /* align-self: flex-end; */
+    /* flex-grow: 1; */
+
+}
+
+.hulk {
+    background-color: green;
+    order: 4;
+    /* flex-grow: 1; */
+
+}
+
+.thor {
+    background-color: blue;
+    order: 2;
+    /* flex-grow: 2; */
+    flex-shrink: 2;
+}
+
+.ironman {
+    background-color: red;
+    order: 1;
+    /* flex-grow: 1; */
+    /* flex-shrink: 3; */
+
+}
+
+.same {
+    height: 200px;
+    width: 260px;
+    font-weight: bold;
+    color: azure;
+}
+
+p {
+    text-align: center;
+    padding-top: 90px;
+
+}
+
