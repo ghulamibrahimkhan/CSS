@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif', serif;
+}
+
+body {
+    background-image: url(hand-painted-watercolor-background-with-sky-clouds-shape.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1100px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+
+}
+
+.logo {
+    margin-right: auto;
+}
+
+ul {
+    margin: 20px 70px;
+}
+
+ul li {
+    display: inline;
+    padding: 0 50px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* main */
+main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 40vh;
+    width: 75%;
+    margin: auto;
+    align-content: center;
+}
+
+@media screen and (max-width:950px) {
+    main {
+        display: grid;
+        background-color: aqua;
+        grid-template-columns: auto auto;
+        height: 55vh;
+        width: 500px;
+        margin: auto;
+        align-content: center;
+    }
+    main p {
+        margin: 5px;
+        border: 1px solid black;
+    }
+    .same{
+        height: 25vh;
+    }
+}
+@media screen and (max-width:555px) {
+    main {
+        display: grid;
+        background-color: gold;
+        grid-template-columns: auto;
+        height: 85vh;
+        width: 300px;
+        margin: auto;
+        align-content: center;
+    }
+    main p {
+        margin: 5px;
+        border: 1px solid black;
+    }
+    .same{
+        height: 25vh;
+    }
+}
+
+
+
+main p {
+    margin: 10px;
+    border: 1px solid black;
+    height: 20vh;
+}
+
+.item1 {
+    background-color: lightyellow;
+}
+
+.item2 {
+    background-color: lightcyan;
+}
+
+.item3 {
+    background-color: lightgreen;
+}
