@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.progess-bar {
+    height: 2px;
+    width: 0px;
+    background-color: red;
+    animation: loading 2s ease none 1;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 7vh;
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 2vh;
+}
+
+li {
+    text-decoration: none;
+    padding-left: 40px;
+    list-style: none;
+}
+
+.para {
+    background-color: azure;
+    color: black;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+}
+
+.slider{
+    background-color: gray;
+    width: 82vw;
+    height: 35vw;
+    overflow: hidden;
+    margin: auto;
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 50px 5px lightslategray;
+    animation: slidierAnimation 9s linear  infinite;
+    background-image: url("https://source.unsplash.com/user/erondu/1600x900");
+
+}
+/* .img1{
+    transform: 0vh;
+}
+.img2{
+    transform: 100vw;
+}
+.img{
+    transform: -100vw;
+} */
+
+
+
+
+
+
+
+@keyframes slidierAnimation{
+    0% {
+        background-image: url("https://source.unsplash.com/user/erondu/1600x900");
+    }
+
+    50% {
+        background-image: url("https://source.unsplash.com/1600x900/?nature,water");
+    }
+    100%{
+     background-image: url("https://source.unsplash.com/600x600/?nature,fire");
+    }
+}

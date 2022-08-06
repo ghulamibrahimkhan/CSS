@@ -1,0 +1,17 @@
+.container{
+    background-color: aqua;
+    height: 50vh;
+    width: 100%;
+}
+/* img:hover{ */
+    /* transform: rotateX(720deg) rotateY(720deg); */
+    /* width: 500px; */
+/* } */
+img{
+    /* transition-property: rotateX(0) rotateY(0); */
+    /* transition-duration: 1s;
+    transition-timing-function:ease-in-out;
+    transition-delay: 0.5s; */
+
+    transition: width 3s ease-in-out, height 3s ease-in-out;
+}

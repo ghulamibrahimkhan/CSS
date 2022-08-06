@@ -1,0 +1,15 @@
+img{
+    height: 200px;
+    width: 200px;
+    animation: wheel 1s ease infinite;
+
+}
+
+@keyframes wheel {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

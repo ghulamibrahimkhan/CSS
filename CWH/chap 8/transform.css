@@ -1,0 +1,26 @@
+.container{
+    background-color: yellow; 
+}
+.item1{
+    background-color: darkblue;
+    color: aliceblue;
+    display: inline-block;
+
+    /* transform: translate(300% ,100%) scale(2,2); */
+    /* transform-origin: 100% 50%; */
+    /* transform:  rotate(0.25turn); */
+    /* transform: scale(2,2); */
+    /* transform: skew(10deg,10deg); */
+    
+}
+.item1 img{
+    transform: rotateX(55deg) rotateY(55deg) rotateZ(55deg);
+    /* transform: rotateX(55deg); */
+    /* transform: rotateY(55deg); */
+    /* transform: rotateZ(55deg); */
+    transform: skew(10deg);
+}
+.item2{
+    background-color: darkred;
+    color: aliceblue;
+}

@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.progess-bar {
+    height: 2px;
+    width: 0px;
+    background-color: red;
+    animation: loading 2s ease none 1;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 7vh;
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 2vh;
+}
+
+li {
+    text-decoration: none;
+    padding-left: 40px;
+    list-style: none;
+}
+
+main {
+    background-color: azure;
+    color: black;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+}
+
+@keyframes loading {
+    0% {
+        width: 20vw;
+    }
+
+    50% {
+        width: 50vw;
+    }
+
+    99% {
+        width: 100vw;
+    }
+    100%{
+        background-color: red;
+        visibility: hidden;
+        display: none;
+    }
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.progess-bar {
+    height: 2px;
+    background-color: rgb(62, 219, 19);
+    width: 10vw;
+    transition-property: width;
+    transition-duration: 1s;
+}
+.progess-bar:hover{
+    width: 100vw;
+    color: red;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 7vh;
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 2vh;
+}
+
+li {
+    text-decoration: none;
+    padding-left: 40px;
+    list-style: none;
+}
+
+main {
+    background-color: azure;
+    color: black;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+}
