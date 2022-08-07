@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Quicksand:wght@300&display=swap');
+
+main {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: white;
+
+}
+
+.top-menu-image {
+    border-radius: 50%;
+    height: 7vh;
+    background-color: white;
+    cursor: pointer;
+}
+
+.top-menu div {
+    background-color: white;
+    padding: 1.5vh 2vw;
+}
+
+.top-menu div p {
+    background-color: white;
+    text-align: center;
+}
+
+/***************** SLIDER ****************/
+.slider {
+    width: 88vw;
+    height: 35vh; 
+    margin: auto;
+    background-color: aqua;
+    background-image: url("https://source.unsplash.com/1200x400/weekly/?nature");
+    background-size: 100% 100%;
+    animation: sliderAnimation 9s linear 3s infinite;
+    cursor: pointer;
+}
+
+@keyframes sliderAnimation {
+    0% {
+        background-image: url("https://source.unsplash.com/1200x400/weekly/?nature");
+    }
+
+    50% {
+        background-image: url("https://source.unsplash.com/1200x400/weekly/?market");
+    }
+
+    100% {
+        background-image: url("https://source.unsplash.com/1200x400/weekly/?shop");
+    }
+}
+
+@media screen and (max-width:1290px) {
+
+
+    .slider {
+        width: 90vw;
+        height: 24vh;
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width:760px) {
+    
+    .top-menu-image {
+        height: 30px;
+        width: 30px;
+    }
+    
+    .top-menu div {
+        background-color: white;
+        padding: 0.8vh 1vw;
+    }
+    .slider {
+        width: 100vw;
+        height: 20vh;
+        margin: auto;
+    }
+}
+
+/* Second menu */
+.left-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid yellow;
+}
+.left-card h1{
+    background-color: #fff;
+}
+.left-card button,h1 {
+ margin:50px 10px 10px 10px;
+}
+.tech-menu-btn{
+    background: #2874f0;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    border: none;
+}
+.tech-menu{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 88vw;
+    height: 29vh;
+    margin: auto;
+}
+.tech-menu-card{
+    background-color: white;
+    height: 28vh;
+    width: 15vw;
+    margin: 0 10px;
+}
+
+
+.tech-menu-image{
+    width:10vw;
+    height: 10vh;
+    margin: 2vw;
+    background-color: white;
+}
+.tech-menu-card p{
+    text-align: center;
+    background-color: white;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;;
+}
+.tech-menu-fixed-card{
+    background-color: white;
+    height:29vh ;
+    width: 15vw;
+    position: sticky;
+    background-image: url(https://source.unsplash.com/250x300/?tech);
+    /* background-size: 100% 100%; */
+    background-size: 100%;
+    border: 1px solid black;
+    box-shadow: 11px 11px 11px gainsboro;
+}
+
+.overflow-scroll{
+    background-color: white;
+    overflow: scroll;
+    display: flex;
+    width: 70vw;
+}
+
+
+/* CSS */
+.button-7 {
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-7:hover,
+.button-7:focus {
+  background-color: #07c;
+}
+
+.button-7:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-7:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+
+.offers{
+    display: flex;
+    background-color: white;
+    width: 88vw;
+    margin: auto;
+    justify-content: space-between;
+}
+.offer-box{
+    background-color: white;
+    height: 27vh;
+    width: 33%;
+    background-size: cover;
+}
+.one{
+    background-size: cover;
+}
+/* .offer-box-img{
+} */

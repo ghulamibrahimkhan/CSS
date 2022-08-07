@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+:root {
+    --bg-color: #2874f0;
+    /* --bg-color : #2874f0; */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f3f6;
+}
+
+header {
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header img {
+    background-color: var(--bg-color);
+    height: 23px;
+    padding: 0 40px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    background-color: var(--bg-color);
+}
+
+nav ul {
+    background-color: var(--bg-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    height: 70px;
+}
+
+nav ul li {
+    background-color: var(--bg-color);
+    padding: 0px 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: #FFFFFF;
+    background-color: var(--bg-color);
+}
+
+nav ul li a:hover {
+    color: rgb(243, 243, 243);
+}
+
+.searchBar {
+    background-color: white;
+    width: 440px;
+    height: 40px;
+    padding: 20px;
+    border: none;
+}
+
+.search-btn {
+    display: flex;
+    background-color: var(--bg-color);
+    border: none;
+}
+.search-btn i:hover{
+    background-color: whitesmoke;
+} 
+
+.search-btn i {
+    background-color: #FFFFFF;
+    height: 20px;
+    padding: 8.2px 10px 9px 10px;
+    cursor: pointer;
+    opacity: 1;
+    outline: 0;
+    text-decoration: none;
+}
+
+.login {
+    background-color: white;
+    color: black;
+    height: 20px;
+    width: 150px;
+    cursor: pointer;
+    text-align: center;
+    padding: 8px;
+}
+
+@media screen and (max-width:1170px) {
+    * {
+        font-size: 14px;
+        background-color: rgb(159, 141, 141);
+    }
+
+    header img {
+        height: 15px;
+        padding: 20px;
+    }
+
+    nav ul {
+        height: 55px;
+        padding: 0 30px;
+    }
+
+    nav ul li {
+        padding: 0 10px;
+    }
+
+    .searchBar {
+        background-color: white;
+        width: 340px;
+        height: 30px;
+        padding: 10px;
+    }
+
+    .search-btn i {
+        height: 10px;
+        padding: 5.9px 7px 11px 7px;
+    }
+
+    .login {
+        height: 12px;
+        width: 90px;
+        padding: 5px 5px 10px 5px;
+    }
+}
+
+@media screen and (max-width:830px) {
+    * {
+        font-size: 1.5vw;
+        background-color: rgb(50, 221, 8);
+    }
+
+    header img {
+        height: 1vh;
+        padding: 2vw;
+    }
+
+    nav ul {
+        height: 5vh;
+        padding: 0 20px;
+    }
+
+    nav ul li {
+        padding: 0 1vh;
+    }
+
+    .searchBar {
+        background-color: white;
+        width: 33vw;
+        height: 2.5vh;
+    }
+
+    .search-btn i {
+        height: 1vh;
+        padding: 0.44vh 0.8vw 0.8vh 0.8vw;
+    }
+
+    .login {
+        height: 0.8vh;
+        width: 7vw;
+        padding: 5px;
+        padding-bottom: 0.7vh;
+        font-size: 1.3vw;
+    }
+}
+
+@media screen and (max-width:665px) {
+    * {
+        background-color: gold;
+    }
+
+    .search-btn i {
+        height: 1vh;
+        padding: 0.6vh 0.8vw 0.6vh 0.8vw;
+
+    }
+}
+
+@media screen and (max-width:427px) {
+    * {
+        background-color: firebrick;
+    }
+    nav ul {
+        padding: 0 10px;
+    }
+
+    .search-btn i {
+        height: 0.9vh;
+        padding: 0.7vh 0.8vw 0.6vh 0.8vw;
+
+    }
+}
